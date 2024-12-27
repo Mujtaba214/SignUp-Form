@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.login {
+  background-color: white;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 101, 101);
+}
+
+.heading,
+.para {
+  background-color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: white;
+}
+
+.formGroup {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+label {
+  width: 100px;
+  background-color: white;
+}
+
+input {
+  background-color: white;
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+}
+
+.check{
+    background-color: white;
+}
+
+.label {
+  background-color: white;
+  margin-left: 5px;
+}
+.btn {
+  background-color: white;
+  font-weight: 700;
+  margin: 18px 0px 8px 80px;
+  padding: 9px;
+  border: 2px solid rgb(239, 73, 73);
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid;
+}
